@@ -13,6 +13,8 @@
 		3D9761C229306810002A6433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9761C029306810002A6433 /* Main.storyboard */; };
 		3D9761C429306811002A6433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D9761C329306811002A6433 /* Assets.xcassets */; };
 		3D9761C729306811002A6433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9761C529306811002A6433 /* LaunchScreen.storyboard */; };
+		3DD34EB5293422A500F29E0F /* RapidAntigenTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD34EB4293422A500F29E0F /* RapidAntigenTest.swift */; };
+		3DD34EB7293424C400F29E0F /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD34EB6293424C400F29E0F /* Step.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		3D9761C129306810002A6433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D9761C329306811002A6433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D9761C629306811002A6433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DD34EB4293422A500F29E0F /* RapidAntigenTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapidAntigenTest.swift; sourceTree = "<group>"; };
+		3DD34EB6293424C400F29E0F /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 		3D9761B929306810002A6433 /* COVIDGuide */ = {
 			isa = PBXGroup;
 			children = (
+				3DD34EB32934228800F29E0F /* Objects */,
 				3D9761BA29306810002A6433 /* AppDelegate.swift */,
 				3D9761BC29306810002A6433 /* ViewController.swift */,
 				3D9761BE29306810002A6433 /* Experience.rcproject */,
@@ -63,6 +68,15 @@
 				3D9761C529306811002A6433 /* LaunchScreen.storyboard */,
 			);
 			path = COVIDGuide;
+			sourceTree = "<group>";
+		};
+		3DD34EB32934228800F29E0F /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				3DD34EB4293422A500F29E0F /* RapidAntigenTest.swift */,
+				3DD34EB6293424C400F29E0F /* Step.swift */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			files = (
 				3D9761BD29306810002A6433 /* ViewController.swift in Sources */,
 				3D9761BB29306810002A6433 /* AppDelegate.swift in Sources */,
+				3DD34EB7293424C400F29E0F /* Step.swift in Sources */,
 				3D9761BF29306810002A6433 /* Experience.rcproject in Sources */,
+				3DD34EB5293422A500F29E0F /* RapidAntigenTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
